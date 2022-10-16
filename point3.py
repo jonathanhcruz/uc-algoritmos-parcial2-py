@@ -1,3 +1,6 @@
+# Realizar un programa utilizando ciclos  while que permita obtener la siguiente figura: 
+# (Nota: El usuario indicará el valor de N por teclado). 
+
 userIter = int(input('Ingrese el numero de iteraciones: '))
 iter = 0
 

@@ -1,8 +1,11 @@
+# Realizar  un  programa  que  permita  el  cálculo  del  índice  de  masa  corporal  de  una 
+# persona (IMC) e indique el estado en que se encuentre la persona.
+
 # IMC
 weight = float(input("Ingrese su peso en kg: "))
 height = float(input("Ingrese su estatura en m: "))
 
-imc = weight / height ** 2
+imc = weight / height ** 2 # ** es la potencia
 
 print("Su IMC es: ", imc)
 print("Su altura es: ", height, "m")

@@ -1,3 +1,11 @@
+# Realice un programa que permita de acuerdo a la compra: aplicar un descuento (20%) 
+# a  los  clientes  cuya  compra  supere  los  $ 300,  aplicar  un descuento  (30%) a  los  clientes 
+# cuya  compra  supere  los $  400,  aplicar  un  descuento  (40%)  a  los  clientes cuya  compra 
+# supere  los  $  600,  aplicar  un  descuento  (50%)  a  los  clientes  cuya  compra  supere  los  $ 
+# 1000, El programa debe solicitarle al usuario el valor de la compra y mostrar la pantalla 
+# cuanto debe pagar.  
+  
+
 purchaseValue = int(input('Ingrese el valor de la compra: '))
 paymentValue = 0
 
