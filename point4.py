@@ -10,7 +10,7 @@ purchaseValue = int(input('Ingrese el valor de la compra: '))
 paymentValue = 0
 
 if purchaseValue >= 1000:
-    purchaseValue = purchaseValue * 0.5
+    paymentValue = purchaseValue * 0.5
     print('Se aplica descuento del 50%')
 elif purchaseValue >= 600:
     paymentValue = purchaseValue * 0.6
